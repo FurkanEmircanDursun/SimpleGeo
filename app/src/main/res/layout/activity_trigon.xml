@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".trigon">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ucgen" />
+
+    <EditText
+        android:id="@+id/bEditText"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+
+        android:hint="enter b"
+        android:inputType="number"
+       />
+
+    <EditText
+        android:id="@+id/aEditText"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+
+        android:hint="enter a"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/textView2"
+        android:layout_width="144dp"
+        android:layout_height="66dp"
+
+        android:backgroundTint="#03A9F4"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="Calculate"
+        android:text="Calculate"
+
+
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/answerText"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="24dp"
+  />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".Circle">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/daire" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal8"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="enter r"
+        android:inputType="numberDecimal"
+
+      />
+
+    <Button
+        android:id="@+id/textView2"
+        android:layout_width="144dp"
+        android:layout_height="66dp"
+
+        android:backgroundTint="#03A9F4"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="Calculate"
+        android:text="Calculate"
+
+
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="24dp"
+        android:gravity="center|center_horizontal"
+        />
+
+</LinearLayout>
